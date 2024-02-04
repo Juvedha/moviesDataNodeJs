@@ -1,0 +1,34 @@
+GET http://localhost:3000/movies/
+### 
+
+POST http://localhost:3000/movies/ 
+Content-Type:application/json 
+
+{
+    "directorId":10,
+    "movieName":"Bahubali",
+    "leadActor":"Juvedha"
+}
+###
+
+GET http://localhost:3000/movies/117/
+### 
+
+PUT http://localhost:3000/movies/120/ 
+Content-Type:application/json 
+
+{
+    "directorId":13,
+    "movieName":"Skandha",
+    "leadActor":"Ram"
+}
+### 
+
+DELETE http://localhost:3000/movies/118/ 
+### 
+
+GET http://localhost:3000/directors/ 
+###
+
+GET http://localhost:3000/directors/24/movies/ 
+
